@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+   
+<style>
+#more {display: none;}
+
+
+#c1 {
+  overflow: hidden;
+  height: 2.6em;
+  line-height: 1.2em;
+  width: 200px;
+}
+
+#c2 {
+  overflow: hidden;
+  height: 2.6em;
+  line-height: 1.2em;
+  width: 200px;
+}
+
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Sve o zdravlju</title>
+    <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+  
+<body>
+
+  <script>
+     
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+
+    
+    </script>
+   
+   
+
+  <div class="header">
+    <h1>Dobro došli na Web site!</h1>
+    <p>Sve o zdravlju</p>
+  </div>
+
+<ul>
+  <div class="icon-bar">
+    <li><a class="active" href="index.html"><i class="fa fa-home"></i>Pocetna</a> </li>
+  <li><a href="zdravaprehrana.html">Zdrava prehrana</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Kategorije Bolesti</a>
+    <div class="dropdown-content">
+      <a href="dijareja.html">Dijareja</a>
+     
+      <a href="novosti.html">Novosti</a>
+    </div>
+  </li>
+  <li><a href="linkovi.html">Linkovi</a></li>
+</div>
+</ul>
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div class="card">
+      <h2>VAŽNO JE DA UVIJEK BUDEMO HIDRIRANI</h2>
+      <h5>Voda, April 11, 2021</h5>
+      <img src="voda.jpg" alt="Mountains" width="500" height="200">
+  
+      <p>Ukoliko se makar rekreativno bavimo sportom, i ako tome dodamo i ljetni period godine,
+        rezultat svega je veliki gubitak tjelesne tečnosti, što je neophodno nadoknaditi, a za šta 
+        se preporučuje povećan unos vode. <span id="dots">...</span><span id="more"> Ukoliko treniramo, 
+          tečnost treba da uzimamo neposredno prije,
+        tokom i nakon aktivnosti, svakih 10 do 15 minuta (idealno je da joj temperatura bude oko 10 do 12
+        stepeni C). Postoji više preporuka o izboru vode za piće, a za naše podneblje čini se da je posebno
+        važna ona koja se odnosi na izbor vode s ciljem smanjenja rizika od hipertenzije, ima li se u vidu
+        činjenica da veliki dio populacije pati od visokog pritiska. Preporučuje se da sve osobe smanje sadržaj
+        natrijuma (kuhinjske soli) u hrani i napicima koje konzumiraju. Posebno su korisne niskomineralne vode,
+        koje sadrže manje od 20 miligrama natrijuma po litru.</span></p>
+      <button onclick="myFunction()" id="myBtn">Pročitaj još</button>
+    </div>
+
+
+
+    <div class="card">
+      <h2>OČISTITE LIMFU - OJAČAJTE IMUNITET</h2>
+      <b>LIJEKOVI IZ KUHINJE</b>
+      <em>Sirovo voće i povrće</em>
+      <h5>Imunitet, April 11, 2021</h5>
+      <img src="citrusi.jpg" alt="Mountains" width="500" height="200">
+<p>Nema kuhanje, nema kalorija - brzo, lako i zdravo! Sirovu hranu bi trebalo jesti na prazan stomak kako
+bi učinak bio bolji i limfi omogućio dubinsko čišćenje ćelija.
+Među namirnicama koje su dobre za limfu nalaze se:
+citrusi i ostala kisela voća, luk (posebno bijeli, dodajte ga uvijek salatama s krastavcem), đumbir, nar, avokado,
+gorka hrana poput rotkvice i kelja, orašasti plodovi (sirovi orasi, bademi i  lješnici), sjemenke suncokreta, 
+sjemenke bundeve. <br>
+<b>Citrusi</b><br>
+U citruse ili argume spadaju limun, grejpfrut,
+   pomorandže i mandarine. Citrusi obiluju vitaminom C i pektinom.
+Pektin je tip vlakana koji se nalaze u biljkama. Povoljno utiče na razgradnju masnih naslaga, izvrstan je
+upijač masti, smanjuje apsorpciju holesterola iz hrane i pospješuje rad debelog crijeva. Sok od citrusa,
+bez dodatka šećera, pospješuje diurezu (mokrenje), djeluje osvježavajuće i jača organizam svojim antiupalnim
+dejstvom. Da bi se iscjedio više soka, plod bi trebao prije cijeđenja staviti da odstoji nekoliko minuta u toploj vodi.
+</p>
+<b>Bijeli luk</b><br>
+Poznat je po svojim antimikrobnim, antivirusnim i antiupalnim svojstvima. On je i prirodni antibiotik. Možete ga 
+koristiti u liječenju natečenih limfnih čvorova. Izgnječite i pojedite dva-tri čehna bijelog luka svakog dana dok
+natečeni limfni čvorovi ne nestanu. Možete maskirati njegov opojni miris tako što ćete ga pomiješati s krastavcem,
+kiselim mlijekom i limunom i time dobiti jednu osvježavajuću salatu.<br>
+<b>Đumbir</b><br>
+Stari indijski iscjelitelji koristili su ovaj ljekoviti začin za čišćenje crijeva. Oko njih je koncentrisan veliki broj
+limfnih sudova i čvorova, te oslobađanjem od otrova ovog dijela probavnog trakta praktično se detoksikuje i limfni sistem.
+Đumbir možete konzumirati u kombinaciji s medom, citrusima ili kao dodatak jelima. <br>
+<b>Nar</b><br>
+Polifenoli, antioksidansi iz sočnih crvenih sjemenki ovog voća štite ćelije na molekularnom nivou od razornog
+djelovanja slobodnih radikala. Nar sadrži više antioksidanasa od brusnice i narandže, a jedan plod ima tri puta
+veći antioksidativni potencijal od crnog vina i zelenog čaja. Bogat je vitaminima (C, B, K i E) i mineralima (kalijum i 
+magnezijum). Zajedno sa bobičastim voćem i mangom nalazi se u grupi koju nutricionisti često nazivaju supervoće. 
+Ukoliko vam je zdrava limfa prioritet, obavezno konzumirajte najmanje 2 dl napitka od nara tokom dana. Otporan je 
+na štetočine pa ne zahtjeva veliko tretiranje pesticidima, tako da nije neophodno kupovati onaj ekološki uzgojen.
+Sezona mu je od oktobra do januara, te ga je najbolje konzumirati u tom periodu.<br>
+<b>Brusnice</b><br>
+Svježe cijeđen sok od brusnice, bez šećera, prepun je enzima, vitamina C i sastojaka koji ojačavaju rad limfnog sistema.
+Preporučuje se po pola čaše soka od brusnice ujutru i uveče. Sok nikako ne treba kuhati jer se tako gube zdravi sastojci!
+<b>ŠTA SAVJETUJU SPECIJALISTI</b><br>
+<em>Čišćenje limfnog sistema postiže se i:</em><br>
+<b>Vježbanjem</b> - brojne studije pokazuju da je skakanje najdjelotvorniji način za poboljšanje limfne cirkulacije.
+Veliki značaj se pripisuje i jogi, posebno položaju svijeće. Ovakvim položajem se, zahvaljujući gravitaciji, poboljšava
+protok limfe i tijelo se efikasno oslobađa otpadnih produkata.<br>
+<b>Zdravom ishranom</b>-jedite što više voća i povrća koje sadrži veliku količinu prirodnih kiselina i enzima, kao i 
+antioksidanasa. Poseban značaj u prečišćavanju limfe pridaje se sokovima od citrusa, zelenom lisnatom povrću, đumbiru i 
+orašastim plodovima.<br>
+<b>Hidratacijom</b> - 95% limfe čini voda. Dnevno morate popiti najmanje šest do osam čaša filtrirane vode, koja je još
+djelotvornija u kombinaciji s limunom.<br>
+<b>Hidroterapijom</b> - jedna od veoma korisnih metoda za poboljšanje venske i limfne cirkulacije je naizmjenično tuširanje
+toplom i hladnom vodom.
+</div>
+
+
+<div class="card">
+        
+  <section id="biljke">
+    <article>
+  <h2>LJEKOVITE BILJKE PROTIV ASTME</h2>
+  <em>Simptome ovog poremećaja moguće je kontrolisati promjenom ishrane i životnog stila, medikamentima ali i pomoću
+    biljnih preparata</em><br>
+  <h5>Ljekovito bilje, April 11, 2021</h5>
+  <img src="origano.jpg" alt="Mountains" width="500" height="200"><br>
+
+
+    Tačan uzrok astme nije poznat, ali je utvrđeno da određeni faktori - genetika, postojeće alergijsko stanje, gojaznost i 
+    prekomjerno pušenje - mogu povećati šanse za razvoj bolesti. Uobičajeni simptomi astme su karakteristično "zviždanje" 
+    (naročito pri izdisanju), kašalj, kratak dah, stezanje u grudima i otežano disanje. Mogu biti umjereni, ali i veoma 
+    intenzivni, čak opasni po život. Simptome ovog poremećaja moguće je kontrolisati promjenom ishrane i životnog stila,
+    medikamentima, ali i pomoću biljnih preparata.<br>
+    <b>Origano</b><br>
+    Origano se zbog svojih antiupalnih i antibakterijskih svojstava od davnina koristi u liječenju mnogih bolesti.
+    Sadrži ruzmarinsku kiselinu, karvakrol, flavonoide i terpene - supstance koje efikasno čiste pluća, smanjuju upalu
+    respiratornog trakta i bronhijalnih cijevi te ublažavaju simptome astme. Osobe koje pate od ove bolesti treba da piju 
+    dvije do tri šolje čaja od origana, koji se pravi jednostavno: tri kašičice svježe ili sušene biljke preliti šoljom 
+    vrele vode, ostaviti da stoji pet do 10 minuta, procijediti i po želji zasladiti medom.<br>
+    <b>Sladić</b><br>
+    Slatki korijen ili sladić već se vijekovim upotrebljava za liječenje oboljenje respiratornog trakta. Također je  efikasan 
+    u tretmanima astme jer djeluje antiinflamatorno, ublažava upalu bronhijalnih cijevi, čisti disajne puteve i olakšava disanje.
+    Pored toga, ova biljka se dolikuje i imonostimulativnim osobinama. Napomena: sladić je veoma jak biljni lijek i treba ga 
+    koristiti pažljivo jer može izazvati glavobolju i porast krvnog pritiska. Ne smiju ga uzimati dijabetičari, hipertoničari 
+    kao ni osobe koje imaju problema s nadbubrežnom žlijezdom, jetrom i bubrezima.<br>
+    <b>Kopriva</b><br>
+    Čajevi i drugi preparati od koprive veoma su djelotvorni u liječenju alergijske astme. Ta moćna biljka sadrži prirodne 
+    antihistaminike i djeluje protivupalno, te pomaže otvaranju bronhijalnih i nazalnih puteva ublažavajući simptome astme.
+    Sem toga, u njen sastav ulazi i buterna kiselina - važna za održavanje zdravlja imunološkog sistema i metabolizma. 
+    da bi olakšali tegobe koje prate ovu bolest, oboljeli od astme treba nekoliko puta na dan da piju čaj od koprive koji se 
+    pravi na sljedeći način: kašik suhog korijena ili lišće preliti šoljom vrele vode, poklopiti, ostaviti da stoji pet minuta
+    i zasladiti medom.
+    </article>
+  </section> 
+
+</div>
+
+
+
+</div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>O stranici</h2>
+      <div class="fakeimg" style="height:100px;">Uzrok svake bolesti je nahlada.</div>
+     
+    </div>
+    <div class="card">
+      <h3>Popularni postovi</h3>
+      <div class="fakeimg"><a href="#biljke">BILJKE PROTIV ASTME</a></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Citati o zdravlju</h3>
+      <p>Tko želi ostati snažan, zdrav i mlad te si produljiti život,<br>
+        neka bude umjeren u svemu.<br>
+        Neka diše svjež zrak, neka njeguje i vježba tijelo,<br>
+        neka čuva hladnu glavu i tople noge,<br>
+        a bolesti neka si liječi postom,<br>
+        a ne lijekovima.<br>
+        
+        Hipokrat</p><br>
+        <p>Zdrav čovjek, ujedno je i bogat,<br>
+          iako toga nije svjestan.<br>
+          
+          italijanska poslovica</p><br>
+          <P>Da biste bili zdravi,<br>
+            jedite lagano, duboko dišite,<br>
+            živite umjereno, radujte se<br>
+            i imajte interes u životu.<br>
+            
+            William Londen</P><br>
+            <p>Kad je zdrav, čovjek ima tisuću želja,<br>
+              a kad je bolestan samo jednu -<br>
+              da što prije ozdravi.<br>
+              
+              Narodna poslovica</p><br>
+              <p>Zdravlje je najveće bogatsvo.<br>
+
+                Vergilije</p><br>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>2021.</h2>
+</div>
+
+
+  
+
+</body>
+</html>
